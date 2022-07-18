@@ -1,11 +1,23 @@
 h1 {
-  color: powderblue;	
+  color:rgb(246, 39, 60);	
 		}
 button { 
-	 color: antiquewhite;
-	 background-color:coral ;
+	 color:rgb(33, 55, 78);
+	 background-color:rgb(255, 255, 255) ;
 		}
 h2 {
-	 color:orange ;
+	 color:rgb(33, 55, 78);
 	 transition: initial;
 		}	    
+.uno{
+    background-color: rgb(255, 250, 245);
+		}
+.dos{
+		background-color: rgb(15, 64, 69);
+		}		
+.tres{
+		background-color: rgb(149, 207, 108);
+		 }
+.cuatro{background-color: rgb(255, 250, 245);
+
+    }
