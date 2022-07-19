@@ -1,12 +1,16 @@
 h1 {
-  color:rgb(246, 39, 60);	
+  color:rgb(12, 64, 69);	
+  font-size: 75px ;
 		}
+.siete {color: rgb(147, 146, 145);
+      
+       }
 button { 
-	 color:rgb(33, 55, 78);
-	 background-color:rgb(255, 255, 255) ;
+	 color:rgb(255, 255, 239);
+	 background-color:rgb(8, 64, 69) ;
 		}
 h2 {
-	 color:rgb(33, 55, 78);
+	 color:rgb(39, 39, 39);
 	 transition: initial;
 		}	    
 .uno{
@@ -21,3 +25,27 @@ h2 {
 .cuatro{background-color: rgb(255, 250, 245);
 
     }
+li{
+	display: inline;
+}
+.cinco{
+		background-color: rgb(93, 169, 52);
+		}
+.seis{
+		color: rgb(12, 64, 69);
+}
+.ocho{
+	background-color: rgb(175, 255, 0);
+}		
+header{
+	margin-top:40px ;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#nueve {
+	width: 80px;
+	height: 80px;
+}
+.diez{
+	background-color: rgb(175, 255, 0);
+}
