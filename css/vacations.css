@@ -1,0 +1,56 @@
+*{
+	font-family: arial;
+	border: 1px solid orange;
+
+}
+/*.m_title {
+	color: teal;
+}
+.uppercase {
+	text-transform: capitalize;
+}
+para mandar a llamar clases distintas*/
+body {
+	background:lightgoldenrodyellow ;
+}
+#article-title {
+	font-family: cursive;
+}
+[href*='florence']{
+	color: yellowgreen;
+}
+[href*='beijing']{
+	color: pink;
+}
+[href*='seoul'] {
+	color: blueviolet;
+}
+a:hover{
+	color: black;
+}
+/*p:hover{
+
+	background-color: azure;
+}
+h2:hover{
+	background-color: azure;
+}
+el hover para que cuando pongas tu cursor se cambie de color*/
+body:hover{
+	background-color: azure;
+}
+h5{
+	color: hotpink;
+}
+.autor {
+	color: tomato;
+}
+#author {
+	color: #3eff3f;
+}
+li h4 {
+	color: #250bdf;
+}
+ul bike{
+	color: papayawhip;
+}
