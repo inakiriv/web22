@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
+img{
+	height: 150px;
+	opacity: 0.7;
+}
+.m_description {
+	font-size: 20px;
+	background-color: greenyellow;
+}
+/*para mandar a llamar una clase*/
+#m_cook_time{
+	font-weight: bold;
+}
+/*para un id*/
+.m_ingredients li{
+	list-style: square;
+}
+.m_time{
+	color: gray;
+}
+.titulo{
+	text-align: center;
+	font-family: Merriweather;
+}
+*{
+	margin-left: 10px;
+	margin-top: 20px;
+}
+a:hover{
+	color: greenyellow;
+}
+/*para un hover de un link*/
