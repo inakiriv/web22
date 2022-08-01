@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,900&display=swap');
 h1 {
   color:rgb(12, 64, 69);	
   font-size: 75px ;
@@ -49,3 +50,24 @@ header{
 .diez{
 	background-color: rgb(175, 255, 0);
 }
+.prom h1{
+	font-family: Alegreya;
+	text-align: right;
+}
+.uno h1{
+	font-family: Alegreya;
+	text-align: center;
+}
+.publish h1{
+	font-family: "Alegraya", serif;
+	font-size: 40px;
+	line-height: 48px;
+	color: #025157;	
+}
+.publish >p{
+	font-size: 16px;
+	color: #343434;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
