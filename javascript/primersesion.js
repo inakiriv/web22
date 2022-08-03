@@ -119,6 +119,80 @@
 
 // EJERCICIO IF Y ELSE 
 
+// var time = 30
+// let greeting; 
+
+//  if (time>24 || time<0) {
+// 	greeting = "not can be possible"
+// } else if (time <12){
+// 	greeting = "Good morning";
+// } else if (time<20) {
+// 	greeting = "Good afternooon"
+// } else if (time >=20) {
+// 	greeting= "Good evening"
+// }
+
+// console.log(greeting)
+// codigo para que dependiendo de la hora salga si sera alguna de esas 4 respuestas usando if y else 
+// var time = 19
+// let horario;
+
+// if (time >= 9 && time<=18){
+// 	horario = "bienvenido"
+// }else{
+// 	horario = "estamos cerrados"
+// }
+
+// console.log(horario)
+// hicimos un horario que solo se pudiera de 9 a 18 usando &&
+						// SWITCH
+// const day = 50;
+// let text;
+
+// switch(day){
+// 	case 0:
+// 	text = "Domingo"
+// 	break;
+// 	case 1:
+// 	text = "Lunes"
+// 	break;
+// 	case 2:
+// 	text = "Martes"
+// 	break;
+// 	case 3:
+// 	text = "Miercoles"
+// 	break;
+// 	case 4:
+// 	text = "Jueves"
+// 	break;
+// 	case 5:
+// 	text = "Viernes"
+// 	break;
+// 	case 6:
+// 	text = "Sabado"
+// 	break;
+// 	default:
+// 	text = "Escribe un numero,no seas imbecil"
+// }
+
+// 	console.log(text)
+// usamos el switch con su estructura debida 
+
+// 							OPERADOR TERNARIA
+
+// const velocidad = 500;
+
+// var mensaje = velocidad > 100 ? "vas muy rapido" : "Good Job"
+
+// console.log(mensaje)
+
+// var edad = 17
+
+// var lo = edad < 18 ? "eres un tonto" : "ya creciste"
+
+// console.log(lo)
+// lo que usamos fue fue definir si pasaba esto o o si no pasara esto, condición ? expresión_true : expresión_false
+						// CICLO FOR
 
 
 
