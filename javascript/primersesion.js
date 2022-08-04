@@ -195,6 +195,33 @@
 						// CICLO FOR
 
 
+// for (let i = 0; i<=2; i++){
+// 	console.log ("holaaa");
+// }
+
+// for (let i = 2 ; i< 200; i++) {
+// if (i%2 == 0){
+// 	// console.log(i)
+	// este es un for de mostrar todos los pares usando la condicional if y modulo que es el residuo de las divisiones
+// }
+// }
+// for (let a= 5 ; a< 100; a++) {
+// if (a%5== 0) {
+// 	console.log(a)
+// }
+// }
+// todos los multiplos de 5 usando if y modulo 
+// for (let l= 5 ; l< 100; l++) {
+// if (l%10== 0) {
+// 	console.log(l)
+// }
+// }
+// todos los multiplos de 10 usando for, if y modulo 
+for (var r = 0; r < 100; r++) {
+	if (r%1== 1){
+		console.log(r)
+	}
+}
 
 
 
