@@ -217,11 +217,99 @@
 // }
 // }
 // todos los multiplos de 10 usando for, if y modulo 
-for (var r = 0; r < 100; r++) {
-	if (r%1== 1){
-		console.log(r)
-	}
-}
+// for (var r = 0; r < 100; r++) {
+// 	if (r%1== 1){
+// 		console.log(r)
+// 	}
+// }
+// trate de hacer el for de los numeros primos pero no me salio :(
+
+// LENGTH para mostrar cuantos elementos hay
+// const hola = ["1" , "2" , "3", "4", "5"];
+
+// console.log(hola[hola.length-1]);
+
+var n1 = [1,2,3,4,5]
+// console.log(n1) ;
+// console.log(n1.length)
+
+// agregar un elemento al final 
+n1.push(7)
+// console.log(n1)
+// console.log(n1.length)
+
+// pop para eliminar al final
+n1.pop();
+// console.log(n1)
+// console.log(n1.length);
+// SHIFT para eliminar 
+// UNSHIFT para agregar al inicio 
+
+						// ITERAR UN ARREGLO
+// for (let i = 0; i < n1.length; i++){
+// console.log(n1[i]);
+// }
+// con esto iteramos el arreglo de n1 1-5 con for e imprimiendolo con conseole.log
+// var nuevoA = [];
+// console.log(nuevoA.length)
+
+// for (var i = 0; i <= 20; i++) {
+// 	nuevoA.push(i)
+// }
+// console.log(nuevoA)
+
+// var nuevoC = []
+// var nuevoB = [10,405,248,278,90]
+// console.log(nuevoB.length)
+// for (var i = 0; i <nuevoB.length; i++) {
+// 	nuevoC [i] = nuevoB[i]*2;
+// }
+// console.log(nuevoC)
+// ITERAR UNA LISTA 
+// usamos for usando la variable llena con los digitos, y una vacia la cual queriamos que apareciera el doble de la primera, y lo hicimos usando for pero en ves de hacerlo uno por uno como se be primero, lo hicimos con i = 0 < z.length;
+// q [1] = z[i]*2;
+// var q = []
+// var z = [8,6,3,4]
+// q[0] = z [0]*2;
+// q[1] = z [1]*2;
+// q[2] = z [2]*2;
+// q[3] = z [3]*2;
+// for (var i = 0; i <z.length; i++) {
+// 	q[i] = z[i]*2;
+// }
+// console.log(q)
+
+					// PROMEDIO
+// sumamos los elementos de la lista para despues poder sacar el promedio de los tres el cual pudimos haber hecho uno por uno pero lo resumimos con for  
+// var a = [80, 100, 1000]					
+// var nElemento = a.length
+// var suma = 0;
+// let promedio;
+// for (var i = 0; i < nElemento; i++) {
+// 			suma = suma + a[i];
+// }
+// console.log(suma)
+
+
+// promedio= suma / nElemento;
+
+// console.log(promedio)
+
+var gandalf = [10, 11, 13, 30, 22, 11, 10, 33, 22, 22]
+var saruman = [23, 66, 12, 43, 12, 10, 44, 23, 12, 17]
+
+var ganadasG = 0
+var ganadasS = 0
+var empate = 0
+
+for (var i = 0; i < gandalf.length; i++) 
+	if (gandalf[i]>saruman [i]) {
+		ganadasG++}
+	 else if (gandalf[i]<saruman[i]){
+	    ganadasS++}
+   else (gandalf[i]==saruman[i]) 
+
+console.log(ganadasG)
 
 
 
