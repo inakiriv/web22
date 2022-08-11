@@ -295,21 +295,155 @@ n1.pop();
 
 // console.log(promedio)
 
-var gandalf = [10, 11, 13, 30, 22, 11, 10, 33, 22, 22]
-var saruman = [23, 66, 12, 43, 12, 10, 44, 23, 12, 17]
+								// EJERCICIO DE GANDALF Y SARUMAN
 
-var ganadasG = 0
-var ganadasS = 0
-var empate = 0
+// var gandalf = [10, 11, 13, 30, 22, 11, 10, 33, 22, 22]
+// var saruman = [23, 66, 12, 43, 12, 10, 44, 23, 12, 17]
 
-for (var i = 0; i < gandalf.length; i++) 
-	if (gandalf[i]>saruman [i]) {
-		ganadasG++}
-	 else if (gandalf[i]<saruman[i]){
-	    ganadasS++}
-   else (gandalf[i]==saruman[i]) 
+// var ganadasG = 0
+// var ganadasS = 0
+// var empate = 0
 
-console.log(ganadasG)
+// for (var i = 0; i < gandalf.length; i++) 
+// 	if (gandalf[i]>saruman [i]) {
+// 		ganadasG++}
+// 	 else if (gandalf[i]<saruman[i]){
+// 	    ganadasS++}
+//    else (gandalf[i]==saruman[i]) 
+
+// console.log(ganadasG)
+
+									// FUSIONAR DOS LISTAS CON CAT (a.concat)
+
+// var a = [0,1,2,3,4]
+// var b = [5,6,7,8,9]
+// var c = [10,11,12,13,14]
+
+// var listaConcatenada = a.concat(b).concat(c);
+// console.log(listaConcatenada)
+
+// console.log(listaConcatenada[listaConcatenada.length-1]) ;
+
+// console.log(listaConcatenada.indexOf(20));
+
+// console.log(listaConcatenada.indexOf(9));
+
+// indexof sirve para que salga cual numero es y si no existe en la lista te saldra -1
+
+									// OBJETOS
+const objeto = {
+key1:"value1",
+key2:"value2",
+key3:"value3"
+}									
+
+const alumno = {
+
+nombre:"Iñaki",
+apellido:"Rivas",
+edad: "108"
+}
+// console.log(alumno)
+
+// si queremos ver todos los valores de un objeto es con (Object.values)
+
+// console.log(Object.values(alumno));
+
+// si queremos ver si un valor se encuentra dentro del key ("escuela" in alumno); false  ("nombre" in alumno); true 
+
+// console.log("escuela" in alumno); 
+// console.log("edad" in alumno);
+
+						// convertir un objeto en arreglo
+// lista dentro de otra lista = lista anidada IN
+
+let arregloobjeto = Object.entries(alumno);
+// console.log(alumno);
+// console.log(arregloobjeto)
+
+// 					ACCEDER A LISTAS 
+
+var lista = [
+	[0,1,10,4,9,45],
+	["valeria","mariana","paola"],
+	[56778,19384,13834834,1848484],
+	["iker","abraham","iñaki"],
+	[[0],[1],[1,2,124]]
+]
+// console.log(lista)
+// console.log(lista[2][2]);
+console.log(lista[3][0]);
+console.log(lista[3][2]);
+console.log(lista[lista.length-1][2][2]);
+
+// console.log(lista.length-1)
+		// PASAR DE UNA LISTA A OBJETO
+
+
+// var object = object.fromEntries(arregloobjeto)
+
+// console.log(object);
+
+// EJERCICIO DE ZOMBIE CASO 0
+// var armas = ["pistola", "escopeta"]
+
+// var cargadores = {
+// 	"pistola":[10, 10] ,
+// 	"escopeta":[2, 2, 2, 2, 2] 
+	
+// }
+// var zombies = 0;
+// var municiones = cargadores["pistola"].concat(cargadores["escopeta"]);
+
+// console.log(municiones)
+
+// for (var i = 0; i < municiones.length; i++) {
+// 	zombies=zombies+municiones[i]
+// 	}
+// console.log(zombies)
+// EJERCICIO ZOMBIES CASO 1
+var armas =["pistola", "ametralladora", "escopeta", "fusil de francotirador"]
+
+
+for (var i = 0; i < armas.length; i++) {
+	if (armas [i] in cargadores) {
+		municiones=municiones.concat(cargadores[armas[i]]);
+	}
+}
+console.log(zombies)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
