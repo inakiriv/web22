@@ -1,0 +1,19 @@
+.grid {
+	display: grid;
+	grid-template-columns:25% 25% 2fr 1fr;
+	grid-template-rows: 200px 200px;
+	row-gap: 10px;
+	column-gap: 15px;
+	width: 500px;
+	height: 400px;
+}
+.box{
+	background-color: black;
+	color: yellowgreen;
+	border-radius: 7px;
+	border: 5px orangered solid;
+
+}
+.a{
+	grid-area: 1 / 1 / 2 span / 3;
+}
