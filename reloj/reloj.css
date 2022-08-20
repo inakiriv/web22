@@ -1,0 +1,14 @@
+body{
+	background-color: black;
+}
+.clock_1{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+#clock{
+	margin: 100px 100px 100px 100px;
+	border: 3px orange solid;
+	color: white;
+	letter-spacing: 5px;
+}
